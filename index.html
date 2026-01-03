@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>BÀI TẬP MẢNG SỐ NGUYÊN</h2>
+
+    <label>Nhập số nguyên:</label>
+    <input type="number" id="soNhap">
+    <button onclick="themSo()">Thêm vào mảng</button>
+
+    <p>Mảng hiện tại: <span id="mangHienTai"></span></p>
+
+    <hr>
+
+    <button onclick="tongSoDuong()">1. Tổng số dương</button>
+    <button onclick="demSoDuong()">2. Đếm số dương</button>
+    <button onclick="timSoNhoNhat()">3. Số nhỏ nhất</button>
+    <button onclick="timSoDuongNhoNhat()">4. Số dương nhỏ nhất</button>
+    <button onclick="timSoChanCuoi()">5. Số chẵn cuối</button>
+
+    <br><br>
+
+    <label>Vị trí 1:</label>
+    <input type="number" id="viTri1">
+    <label>Vị trí 2:</label>
+    <input type="number" id="viTri2">
+    <button onclick="doiCho()">6. Đổi chỗ</button>
+
+    <br><br>
+
+    <button onclick="sapXepTang()">7. Sắp xếp tăng dần</button>
+    <button onclick="timSoNguyenTo()">8. Số nguyên tố đầu tiên</button>
+
+    <hr>
+
+    <h3>MẢNG SỐ THỰC</h3>
+    <input type="number" step="any" id="soThuc">
+    <button onclick="themSoThuc()">Thêm</button>
+    <p>Mảng số thực: <span id="mangSoThuc"></span></p>
+    <button onclick="demSoNguyen()">9. Đếm số nguyên</button>
+
+    <hr>
+
+    <button onclick="soSanhAmDuong()">10. So sánh số âm & dương</button>
+
+    <h3>KẾT QUẢ</h3>
+    <div id="ketQua"></div>
+
+    <script src="js/bai_mang.js"></script>
+</body>
+
+</html>
